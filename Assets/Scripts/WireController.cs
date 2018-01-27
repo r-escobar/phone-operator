@@ -23,7 +23,7 @@ public class WireController : MonoBehaviour {
 
         wireTap.transform.position = (plug1.transform.position + plug2.transform.position) / 2f;
         
-        float wireTapAngle = Mathf.Atan((plug2.transform.position.y - plug1.transform.position.y) / (plug2.transform.position.x - plug1.transform.position.x));
-        wireTap.transform.eulerAngles = new Vector3(0f, 0f, Mathf.Rad2Deg * wireTapAngle);
+        //float wireTapAngle = Mathf.Atan((plug2.transform.position.y - plug1.transform.position.y) / (plug2.transform.position.x - plug1.transform.position.x));
+        //wireTap.transform.eulerAngles = new Vector3(0f, 0f, Mathf.Rad2Deg * wireTapAngle);
     }
 }
