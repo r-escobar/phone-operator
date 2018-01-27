@@ -1,0 +1,25 @@
+{
+    "speaker1": {
+        "name": "Grandma",
+        "color": "Grey",
+        "rambling":
+            ["Speak louder, my hearing isn't what it used to be, honey.",
+            "Speak louder, my hearing isn't what it used to be, honey.",
+            "Speak louder, my hearing isn't what it used to be, honey.",
+            "Speak louder, my hearing isn't what it used to be, honey.",
+            "Speak louder, my hearing isn't what it used to be, honey."],
+        "matchTest": "Happy birthday Billy!",
+        "correctMatchResponse": "Thanks, Granda!",
+        "wrongMatchResponse": "I must have dialed the wrong number."
+    },
+
+    "speaker2": {
+        "name": "Billy",
+        "color": "Blue",
+        "rambling":
+            ["asdf", "asdf", "sadf", "fdsa"],
+        "matchTest": "Helloooooo. Grandma?",
+        "correctMatchResponse": "Happy birthday Billy!", 
+        "wrongMatchResponse": "You're not my grandma!"
+    }
+}
