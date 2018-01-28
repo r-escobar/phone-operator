@@ -59,7 +59,7 @@ public class JackController : MonoBehaviour {
             newPlug.transform.position = transform.position;
             newPlugPlaced = true;
 
-            newPlug.transform.parent.GetComponent<WireController>().TestForMatch();
+            //newPlug.transform.parent.GetComponent<WireController>().TestForMatch();
         }
 
 
@@ -135,9 +135,14 @@ public class JackController : MonoBehaviour {
         newTextBox.GetComponent<RectTransform>().position = screenPos;
         newTextBox.GetComponentInChildren<Text>().text = lineToSpeak;
 
+        TextBoxController newTextBoxCont = newTextBox.GetComponent<TextBoxController>();
+        newTextBoxCont.displayDuration = onScreenDuration;
+        newTextBoxCont.borderCol = curSpeaker.color;
+        newTextBoxCont.Grow();
+
         curTextBox = newTextBox;
 
-        Destroy(newTextBox, onScreenDuration);
+        //Destroy(newTextBox, onScreenDuration);
     }
 
     void ClearTextBoxState()

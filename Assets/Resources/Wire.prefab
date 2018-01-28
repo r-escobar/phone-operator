@@ -20,6 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4709462556024828}
   - component: {fileID: 212849652547056838}
+  - component: {fileID: 114120052086986928}
   m_Layer: 0
   m_Name: Plug2
   m_TagString: Untagged
@@ -52,6 +53,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4778983904799798}
   - component: {fileID: 212275941188889568}
+  - component: {fileID: 114999410401876078}
   m_Layer: 0
   m_Name: Plug1
   m_TagString: Untagged
@@ -157,7 +159,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1226339222542600}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.2983313, y: -1.9045886, z: -0.097905524}
+  m_LocalPosition: {x: 3.98, y: -2.25, z: -0.097905524}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4778983904799798}
@@ -172,7 +174,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1022003698874312}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.86, y: 1.48, z: 0.097905524}
+  m_LocalPosition: {x: -8.93, y: 1.457, z: 0.097905524}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children:
   - {fileID: 4969381003738912}
@@ -200,7 +202,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1063266809940806}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10.1, y: 1.48, z: 0.097905524}
+  m_LocalPosition: {x: -10.015, y: 1.449, z: 0.097905524}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children:
   - {fileID: 4181897062715914}
@@ -221,6 +223,18 @@ Transform:
   m_Father: {fileID: 4709462556024828}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114120052086986928
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1022003698874312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db460be3481aa164e9427e1cd8b30f29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  curJackController: {fileID: 0}
 --- !u!114 &114959498316928664
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -237,6 +251,18 @@ MonoBehaviour:
   wireJoint1: {fileID: 1807658822225546}
   wireJoint2: {fileID: 1257225024557556}
   wireJointAngle: 0
+--- !u!114 &114999410401876078
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1063266809940806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db460be3481aa164e9427e1cd8b30f29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  curJackController: {fileID: 0}
 --- !u!120 &120190318084415362
 LineRenderer:
   m_ObjectHideFlags: 1
@@ -492,7 +518,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 9
   m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-  m_Color: {r: 0.1504109, g: 0.18113135, b: 0.78676474, a: 1}
+  m_Color: {r: 0.22804932, g: 0.2575065, b: 0.83823526, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -536,7 +562,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 9
   m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-  m_Color: {r: 0.1504109, g: 0.18113135, b: 0.78676474, a: 1}
+  m_Color: {r: 0.22804932, g: 0.2575065, b: 0.83823526, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
