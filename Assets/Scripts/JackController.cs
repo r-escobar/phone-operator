@@ -15,6 +15,7 @@ public class JackController : MonoBehaviour {
     public GameObject curPlug;
     public CursorController cursorCont;
 
+
     void Start()
     {
         //Fetch the mesh renderer component from the GameObject
@@ -46,6 +47,8 @@ public class JackController : MonoBehaviour {
             newPlug = cursorCont.PutDownPlug();
             newPlug.transform.position = transform.position;
             newPlugPlaced = true;
+
+            newPlug.transform.parent.GetComponent<WireController>().TestForMatch();
         }
 
 

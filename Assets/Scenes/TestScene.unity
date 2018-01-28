@@ -452,34 +452,20 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: 4232167902423512, guid: 23e0e2522735bd246a96010e43e9d0e9, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 0.74999994
-      objectReference: {fileID: 0}
-    - target: {fileID: 1042174888595560, guid: 23e0e2522735bd246a96010e43e9d0e9, type: 2}
-      propertyPath: m_Name
-      value: Plug Module (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 212608375024508120, guid: 23e0e2522735bd246a96010e43e9d0e9,
-        type: 2}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 212608375024508120, guid: 23e0e2522735bd246a96010e43e9d0e9,
-        type: 2}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 212608375024508120, guid: 23e0e2522735bd246a96010e43e9d0e9,
-        type: 2}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 114037638332402658, guid: 23e0e2522735bd246a96010e43e9d0e9,
         type: 2}
       propertyPath: cursorCont
       value: 
       objectReference: {fileID: 1024126599}
+    - target: {fileID: 1042174888595560, guid: 23e0e2522735bd246a96010e43e9d0e9, type: 2}
+      propertyPath: m_Name
+      value: Plug Module (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114348916576736172, guid: 23e0e2522735bd246a96010e43e9d0e9,
+        type: 2}
+      propertyPath: pulsateOnStart
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 23e0e2522735bd246a96010e43e9d0e9, type: 2}
   m_IsPrefabParent: 0
