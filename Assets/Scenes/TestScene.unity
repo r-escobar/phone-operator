@@ -217,6 +217,11 @@ Prefab:
       propertyPath: cursorCont
       value: 
       objectReference: {fileID: 1024126599}
+    - target: {fileID: 114037638332402658, guid: 23e0e2522735bd246a96010e43e9d0e9,
+        type: 2}
+      propertyPath: wireCont
+      value: 
+      objectReference: {fileID: 1916579173}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 23e0e2522735bd246a96010e43e9d0e9, type: 2}
   m_IsPrefabParent: 0
@@ -355,6 +360,11 @@ Prefab:
       propertyPath: m_Name
       value: Plug Module (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 114037638332402658, guid: 23e0e2522735bd246a96010e43e9d0e9,
+        type: 2}
+      propertyPath: wireCont
+      value: 
+      objectReference: {fileID: 1916579173}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 23e0e2522735bd246a96010e43e9d0e9, type: 2}
   m_IsPrefabParent: 0
@@ -410,6 +420,11 @@ Prefab:
       propertyPath: cursorCont
       value: 
       objectReference: {fileID: 1024126599}
+    - target: {fileID: 114037638332402658, guid: 23e0e2522735bd246a96010e43e9d0e9,
+        type: 2}
+      propertyPath: wireCont
+      value: 
+      objectReference: {fileID: 1916579173}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 23e0e2522735bd246a96010e43e9d0e9, type: 2}
   m_IsPrefabParent: 0
@@ -466,6 +481,11 @@ Prefab:
       propertyPath: pulsateOnStart
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114037638332402658, guid: 23e0e2522735bd246a96010e43e9d0e9,
+        type: 2}
+      propertyPath: wireCont
+      value: 
+      objectReference: {fileID: 1916579173}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 23e0e2522735bd246a96010e43e9d0e9, type: 2}
   m_IsPrefabParent: 0
@@ -521,6 +541,11 @@ Prefab:
       propertyPath: cursorCont
       value: 
       objectReference: {fileID: 1024126599}
+    - target: {fileID: 114037638332402658, guid: 23e0e2522735bd246a96010e43e9d0e9,
+        type: 2}
+      propertyPath: wireCont
+      value: 
+      objectReference: {fileID: 1916579173}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 23e0e2522735bd246a96010e43e9d0e9, type: 2}
   m_IsPrefabParent: 0
@@ -596,6 +621,11 @@ Prefab:
       propertyPath: cursorCont
       value: 
       objectReference: {fileID: 1024126599}
+    - target: {fileID: 114037638332402658, guid: 23e0e2522735bd246a96010e43e9d0e9,
+        type: 2}
+      propertyPath: wireCont
+      value: 
+      objectReference: {fileID: 1916579173}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 23e0e2522735bd246a96010e43e9d0e9, type: 2}
   m_IsPrefabParent: 0
@@ -651,6 +681,11 @@ Prefab:
       propertyPath: cursorCont
       value: 
       objectReference: {fileID: 1024126599}
+    - target: {fileID: 114037638332402658, guid: 23e0e2522735bd246a96010e43e9d0e9,
+        type: 2}
+      propertyPath: wireCont
+      value: 
+      objectReference: {fileID: 1916579173}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 23e0e2522735bd246a96010e43e9d0e9, type: 2}
   m_IsPrefabParent: 0
@@ -779,6 +814,11 @@ Prefab:
       propertyPath: cursorCont
       value: 
       objectReference: {fileID: 1024126599}
+    - target: {fileID: 114037638332402658, guid: 23e0e2522735bd246a96010e43e9d0e9,
+        type: 2}
+      propertyPath: wireCont
+      value: 
+      objectReference: {fileID: 1916579173}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 23e0e2522735bd246a96010e43e9d0e9, type: 2}
   m_IsPrefabParent: 0
@@ -834,6 +874,11 @@ Prefab:
       propertyPath: cursorCont
       value: 
       objectReference: {fileID: 1024126599}
+    - target: {fileID: 114037638332402658, guid: 23e0e2522735bd246a96010e43e9d0e9,
+        type: 2}
+      propertyPath: wireCont
+      value: 
+      objectReference: {fileID: 1916579173}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 23e0e2522735bd246a96010e43e9d0e9, type: 2}
   m_IsPrefabParent: 0
@@ -972,6 +1017,11 @@ Prefab:
       propertyPath: cursorCont
       value: 
       objectReference: {fileID: 1024126599}
+    - target: {fileID: 114037638332402658, guid: 23e0e2522735bd246a96010e43e9d0e9,
+        type: 2}
+      propertyPath: wireCont
+      value: 
+      objectReference: {fileID: 1916579173}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 23e0e2522735bd246a96010e43e9d0e9, type: 2}
   m_IsPrefabParent: 0
@@ -1027,6 +1077,11 @@ Prefab:
       propertyPath: cursorCont
       value: 
       objectReference: {fileID: 1024126599}
+    - target: {fileID: 114037638332402658, guid: 23e0e2522735bd246a96010e43e9d0e9,
+        type: 2}
+      propertyPath: wireCont
+      value: 
+      objectReference: {fileID: 1916579173}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 23e0e2522735bd246a96010e43e9d0e9, type: 2}
   m_IsPrefabParent: 0
@@ -1082,6 +1137,11 @@ Prefab:
       propertyPath: cursorCont
       value: 
       objectReference: {fileID: 1024126599}
+    - target: {fileID: 114037638332402658, guid: 23e0e2522735bd246a96010e43e9d0e9,
+        type: 2}
+      propertyPath: wireCont
+      value: 
+      objectReference: {fileID: 1916579173}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 23e0e2522735bd246a96010e43e9d0e9, type: 2}
   m_IsPrefabParent: 0
@@ -1142,6 +1202,11 @@ Prefab:
       propertyPath: cursorCont
       value: 
       objectReference: {fileID: 1024126599}
+    - target: {fileID: 114037638332402658, guid: 23e0e2522735bd246a96010e43e9d0e9,
+        type: 2}
+      propertyPath: wireCont
+      value: 
+      objectReference: {fileID: 1916579173}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 23e0e2522735bd246a96010e43e9d0e9, type: 2}
   m_IsPrefabParent: 0
@@ -1189,6 +1254,11 @@ Prefab:
       propertyPath: cursorCont
       value: 
       objectReference: {fileID: 1024126599}
+    - target: {fileID: 114037638332402658, guid: 23e0e2522735bd246a96010e43e9d0e9,
+        type: 2}
+      propertyPath: wireCont
+      value: 
+      objectReference: {fileID: 1916579173}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 23e0e2522735bd246a96010e43e9d0e9, type: 2}
   m_IsPrefabParent: 0
@@ -1244,6 +1314,11 @@ Prefab:
       propertyPath: cursorCont
       value: 
       objectReference: {fileID: 1024126599}
+    - target: {fileID: 114037638332402658, guid: 23e0e2522735bd246a96010e43e9d0e9,
+        type: 2}
+      propertyPath: wireCont
+      value: 
+      objectReference: {fileID: 1916579173}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 23e0e2522735bd246a96010e43e9d0e9, type: 2}
   m_IsPrefabParent: 0
@@ -1691,6 +1766,11 @@ Prefab:
       propertyPath: cursorCont
       value: 
       objectReference: {fileID: 1024126599}
+    - target: {fileID: 114037638332402658, guid: 23e0e2522735bd246a96010e43e9d0e9,
+        type: 2}
+      propertyPath: wireCont
+      value: 
+      objectReference: {fileID: 1916579173}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 23e0e2522735bd246a96010e43e9d0e9, type: 2}
   m_IsPrefabParent: 0
@@ -1813,6 +1893,11 @@ Prefab:
       propertyPath: cursorCont
       value: 
       objectReference: {fileID: 1024126599}
+    - target: {fileID: 114037638332402658, guid: 23e0e2522735bd246a96010e43e9d0e9,
+        type: 2}
+      propertyPath: wireCont
+      value: 
+      objectReference: {fileID: 1916579173}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 23e0e2522735bd246a96010e43e9d0e9, type: 2}
   m_IsPrefabParent: 0
@@ -1864,6 +1949,11 @@ Prefab:
       propertyPath: cursorCont
       value: 
       objectReference: {fileID: 1024126599}
+    - target: {fileID: 114037638332402658, guid: 23e0e2522735bd246a96010e43e9d0e9,
+        type: 2}
+      propertyPath: wireCont
+      value: 
+      objectReference: {fileID: 1916579173}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 23e0e2522735bd246a96010e43e9d0e9, type: 2}
   m_IsPrefabParent: 0
@@ -1919,6 +2009,11 @@ Prefab:
       propertyPath: cursorCont
       value: 
       objectReference: {fileID: 1024126599}
+    - target: {fileID: 114037638332402658, guid: 23e0e2522735bd246a96010e43e9d0e9,
+        type: 2}
+      propertyPath: wireCont
+      value: 
+      objectReference: {fileID: 1916579173}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 23e0e2522735bd246a96010e43e9d0e9, type: 2}
   m_IsPrefabParent: 0
@@ -2017,6 +2112,11 @@ Prefab:
       propertyPath: cursorCont
       value: 
       objectReference: {fileID: 1024126599}
+    - target: {fileID: 114037638332402658, guid: 23e0e2522735bd246a96010e43e9d0e9,
+        type: 2}
+      propertyPath: wireCont
+      value: 
+      objectReference: {fileID: 1916579173}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 23e0e2522735bd246a96010e43e9d0e9, type: 2}
   m_IsPrefabParent: 0
@@ -2082,6 +2182,11 @@ Prefab:
       propertyPath: cursorCont
       value: 
       objectReference: {fileID: 1024126599}
+    - target: {fileID: 114037638332402658, guid: 23e0e2522735bd246a96010e43e9d0e9,
+        type: 2}
+      propertyPath: wireCont
+      value: 
+      objectReference: {fileID: 1916579173}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 23e0e2522735bd246a96010e43e9d0e9, type: 2}
   m_IsPrefabParent: 0
@@ -2137,6 +2242,11 @@ Prefab:
       propertyPath: cursorCont
       value: 
       objectReference: {fileID: 1024126599}
+    - target: {fileID: 114037638332402658, guid: 23e0e2522735bd246a96010e43e9d0e9,
+        type: 2}
+      propertyPath: wireCont
+      value: 
+      objectReference: {fileID: 1916579173}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 23e0e2522735bd246a96010e43e9d0e9, type: 2}
   m_IsPrefabParent: 0
@@ -2217,6 +2327,11 @@ Prefab:
       propertyPath: cursorCont
       value: 
       objectReference: {fileID: 1024126599}
+    - target: {fileID: 114037638332402658, guid: 23e0e2522735bd246a96010e43e9d0e9,
+        type: 2}
+      propertyPath: wireCont
+      value: 
+      objectReference: {fileID: 1916579173}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 23e0e2522735bd246a96010e43e9d0e9, type: 2}
   m_IsPrefabParent: 0
@@ -2318,6 +2433,11 @@ Prefab:
       propertyPath: cursorCont
       value: 
       objectReference: {fileID: 1024126599}
+    - target: {fileID: 114037638332402658, guid: 23e0e2522735bd246a96010e43e9d0e9,
+        type: 2}
+      propertyPath: wireCont
+      value: 
+      objectReference: {fileID: 1916579173}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 23e0e2522735bd246a96010e43e9d0e9, type: 2}
   m_IsPrefabParent: 0
@@ -2378,6 +2498,11 @@ Prefab:
       propertyPath: cursorCont
       value: 
       objectReference: {fileID: 1024126599}
+    - target: {fileID: 114037638332402658, guid: 23e0e2522735bd246a96010e43e9d0e9,
+        type: 2}
+      propertyPath: wireCont
+      value: 
+      objectReference: {fileID: 1916579173}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 23e0e2522735bd246a96010e43e9d0e9, type: 2}
   m_IsPrefabParent: 0
@@ -2433,6 +2558,11 @@ Prefab:
       propertyPath: cursorCont
       value: 
       objectReference: {fileID: 1024126599}
+    - target: {fileID: 114037638332402658, guid: 23e0e2522735bd246a96010e43e9d0e9,
+        type: 2}
+      propertyPath: wireCont
+      value: 
+      objectReference: {fileID: 1916579173}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 23e0e2522735bd246a96010e43e9d0e9, type: 2}
   m_IsPrefabParent: 0
@@ -2488,6 +2618,11 @@ Prefab:
       propertyPath: cursorCont
       value: 
       objectReference: {fileID: 1024126599}
+    - target: {fileID: 114037638332402658, guid: 23e0e2522735bd246a96010e43e9d0e9,
+        type: 2}
+      propertyPath: wireCont
+      value: 
+      objectReference: {fileID: 1916579173}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 23e0e2522735bd246a96010e43e9d0e9, type: 2}
   m_IsPrefabParent: 0
@@ -2548,6 +2683,11 @@ Prefab:
       propertyPath: cursorCont
       value: 
       objectReference: {fileID: 1024126599}
+    - target: {fileID: 114037638332402658, guid: 23e0e2522735bd246a96010e43e9d0e9,
+        type: 2}
+      propertyPath: wireCont
+      value: 
+      objectReference: {fileID: 1916579173}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 23e0e2522735bd246a96010e43e9d0e9, type: 2}
   m_IsPrefabParent: 0
@@ -2613,6 +2753,11 @@ Prefab:
       propertyPath: curPlug
       value: 
       objectReference: {fileID: 46985902}
+    - target: {fileID: 114037638332402658, guid: 23e0e2522735bd246a96010e43e9d0e9,
+        type: 2}
+      propertyPath: wireCont
+      value: 
+      objectReference: {fileID: 1916579173}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 23e0e2522735bd246a96010e43e9d0e9, type: 2}
   m_IsPrefabParent: 0
@@ -2665,6 +2810,11 @@ Prefab:
       propertyPath: cursorCont
       value: 
       objectReference: {fileID: 1024126599}
+    - target: {fileID: 114037638332402658, guid: 23e0e2522735bd246a96010e43e9d0e9,
+        type: 2}
+      propertyPath: wireCont
+      value: 
+      objectReference: {fileID: 1916579173}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 23e0e2522735bd246a96010e43e9d0e9, type: 2}
   m_IsPrefabParent: 0
@@ -2721,6 +2871,11 @@ Prefab:
       propertyPath: cursorCont
       value: 
       objectReference: {fileID: 1024126599}
+    - target: {fileID: 114037638332402658, guid: 23e0e2522735bd246a96010e43e9d0e9,
+        type: 2}
+      propertyPath: wireCont
+      value: 
+      objectReference: {fileID: 1916579173}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 23e0e2522735bd246a96010e43e9d0e9, type: 2}
   m_IsPrefabParent: 0
@@ -2776,6 +2931,11 @@ Prefab:
       propertyPath: cursorCont
       value: 
       objectReference: {fileID: 1024126599}
+    - target: {fileID: 114037638332402658, guid: 23e0e2522735bd246a96010e43e9d0e9,
+        type: 2}
+      propertyPath: wireCont
+      value: 
+      objectReference: {fileID: 1916579173}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 23e0e2522735bd246a96010e43e9d0e9, type: 2}
   m_IsPrefabParent: 0
@@ -2831,6 +2991,11 @@ Prefab:
       propertyPath: cursorCont
       value: 
       objectReference: {fileID: 1024126599}
+    - target: {fileID: 114037638332402658, guid: 23e0e2522735bd246a96010e43e9d0e9,
+        type: 2}
+      propertyPath: wireCont
+      value: 
+      objectReference: {fileID: 1916579173}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 23e0e2522735bd246a96010e43e9d0e9, type: 2}
   m_IsPrefabParent: 0
@@ -2893,6 +3058,11 @@ Prefab:
       propertyPath: cursorCont
       value: 
       objectReference: {fileID: 1024126599}
+    - target: {fileID: 114037638332402658, guid: 23e0e2522735bd246a96010e43e9d0e9,
+        type: 2}
+      propertyPath: wireCont
+      value: 
+      objectReference: {fileID: 1916579173}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 23e0e2522735bd246a96010e43e9d0e9, type: 2}
   m_IsPrefabParent: 0
@@ -3247,9 +3417,20 @@ Prefab:
       propertyPath: cursorCont
       value: 
       objectReference: {fileID: 1024126599}
+    - target: {fileID: 114037638332402658, guid: 23e0e2522735bd246a96010e43e9d0e9,
+        type: 2}
+      propertyPath: wireCont
+      value: 
+      objectReference: {fileID: 1916579173}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 23e0e2522735bd246a96010e43e9d0e9, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &1916579173 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114959498316928664, guid: 4fb8481c74f345e46ab1ba464ae8fcdd,
+    type: 2}
+  m_PrefabInternal: {fileID: 1770035974}
+  m_Script: {fileID: 11500000, guid: fb554489332130d489a34609b2efe8d1, type: 3}
 --- !u!1001 &1934796091
 Prefab:
   m_ObjectHideFlags: 0
@@ -3302,6 +3483,11 @@ Prefab:
       propertyPath: cursorCont
       value: 
       objectReference: {fileID: 1024126599}
+    - target: {fileID: 114037638332402658, guid: 23e0e2522735bd246a96010e43e9d0e9,
+        type: 2}
+      propertyPath: wireCont
+      value: 
+      objectReference: {fileID: 1916579173}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 23e0e2522735bd246a96010e43e9d0e9, type: 2}
   m_IsPrefabParent: 0
