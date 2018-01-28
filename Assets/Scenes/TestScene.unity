@@ -2541,31 +2541,6 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 224138232110738842, guid: e1ca19aab7e69de4ca322c50e08c596f,
-        type: 2}
-      propertyPath: m_AnchorMin.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224138232110738842, guid: e1ca19aab7e69de4ca322c50e08c596f,
-        type: 2}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224138232110738842, guid: e1ca19aab7e69de4ca322c50e08c596f,
-        type: 2}
-      propertyPath: m_AnchoredPosition.x
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 224138232110738842, guid: e1ca19aab7e69de4ca322c50e08c596f,
-        type: 2}
-      propertyPath: m_AnchoredPosition.y
-      value: -38.26333
-      objectReference: {fileID: 0}
-    - target: {fileID: 224138232110738842, guid: e1ca19aab7e69de4ca322c50e08c596f,
-        type: 2}
-      propertyPath: m_SizeDelta.y
-      value: 46.526657
-      objectReference: {fileID: 0}
     - target: {fileID: 224744191225898030, guid: e1ca19aab7e69de4ca322c50e08c596f,
         type: 2}
       propertyPath: m_AnchorMin.y
@@ -2595,6 +2570,26 @@ Prefab:
         type: 2}
       propertyPath: m_SizeDelta.y
       value: 46.526657
+      objectReference: {fileID: 0}
+    - target: {fileID: 114867482155488920, guid: e1ca19aab7e69de4ca322c50e08c596f,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114867482155488920, guid: e1ca19aab7e69de4ca322c50e08c596f,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114867482155488920, guid: e1ca19aab7e69de4ca322c50e08c596f,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114158548591687632, guid: e1ca19aab7e69de4ca322c50e08c596f,
+        type: 2}
+      propertyPath: growTime
+      value: 0.6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e1ca19aab7e69de4ca322c50e08c596f, type: 2}

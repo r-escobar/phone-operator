@@ -22,7 +22,7 @@ public class TextBoxController : MonoBehaviour {
             borderCol = Color.red;
 
         GetComponent<Image>().color = borderCol;
-        transform.GetChild(0).GetComponentInChildren<Image>().color = borderCol;
+        transform.GetChild(1).GetComponentInChildren<Image>().color = borderCol;
 
         //Grow();
     }
