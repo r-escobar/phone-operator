@@ -4,6 +4,12 @@ using UnityEngine;
 
 public class LightController : MonoBehaviour {
 
+    public Color litColor;
+
+    public float pulseDuration = 1f;
+    public float pulseTiming = 0.5f;
+
+
 	// Use this for initialization
 	void Start () {
 		
@@ -13,4 +19,14 @@ public class LightController : MonoBehaviour {
 	void Update () {
 		
 	}
+
+    public void StartPulsating()
+    {
+
+    }
+
+    public void StopPulsating()
+    {
+
+    }
 }
