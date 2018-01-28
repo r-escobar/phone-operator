@@ -39,5 +39,14 @@ public class WireController : MonoBehaviour {
     {
         // check both PlugControllers from plug1 and plug2
         // compare the names of the speakers in their respective jacks
+        Speaker speaker1 = plug1.GetComponent<PlugController>().curJackController.curSpeaker;
+        Speaker speaker2 = plug2.GetComponent<PlugController>().curJackController.curSpeaker;
+        if (speaker1 != null && speaker2 != null)
+        {
+            //if(speaker1.speakerName == speaker2.partnerName)
+            //{
+                // resolve match
+            //}
+        }
     }
 }

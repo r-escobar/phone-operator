@@ -14,7 +14,7 @@ public class DialogueController : MonoBehaviour {
 
 	void Start()
 	{
-        jackToSpeak.Speak("test string!");
+        jackToSpeak.Speak("test string!", 5f);
 
 		for(int i = 1; i <= 30; i++) {
 			speakerPairs.Insert(i-1, LoadSpeakerPair(1));

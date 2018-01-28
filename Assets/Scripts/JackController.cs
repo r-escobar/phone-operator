@@ -19,6 +19,13 @@ public class JackController : MonoBehaviour {
     public GameObject indicatorLight;
 
     public GameObject textBoxPrefab;
+    GameObject curTextBox;
+
+    public Speaker curSpeaker;
+
+    int curRamblingIndex = 0;
+
+
 
     void Start()
     {
@@ -59,12 +66,18 @@ public class JackController : MonoBehaviour {
         if (curPlug)
         {
             cursorCont.PickUpPlug(curPlug);
+
+            curPlug.GetComponent<PlugController>().curJackController = null;
+
             curPlug = null;
         }
 
         if(newPlugPlaced)
+        {
             curPlug = newPlug;
-        
+            curPlug.GetComponent<PlugController>().curJackController = this;
+        }
+
     }
 
     void OnMouseUp()
@@ -72,9 +85,49 @@ public class JackController : MonoBehaviour {
         //Debug.Log("up");
     }
 
-    public void Speak(string lineToSpeak)
+    public void ReceiveNewSpeaker(Speaker newSpeaker)
     {
-        Vector3 screenPos = Camera.main.WorldToScreenPoint(indicatorLight.transform.position);
+        curRamblingIndex = 0;
+
+        curSpeaker = newSpeaker;
+
+        ClearTextBoxState();
+        Ramble();
+    }
+
+    void Ramble()
+    {
+        if (curRamblingIndex > curSpeaker.rambling.Length)
+            curRamblingIndex = 0;
+
+        Speak(curSpeaker.rambling[curRamblingIndex], 5f);
+
+        curRamblingIndex++;
+
+        Invoke("Ramble", 7f);
+    }
+
+    void CorrectMatchResolve()
+    {
+        ClearTextBoxState();
+
+        Speak(curSpeaker.correctMatchResponse, 5f);
+    }
+
+    void MismatchResolve()
+    {
+        ClearTextBoxState();
+
+        Speak(curSpeaker.wrongMatchResponse, 5f);
+    }
+
+    public void Speak(string lineToSpeak, float onScreenDuration)
+    {
+
+        Vector3 positionAdjustment = new Vector3(indicatorLight.GetComponent<SpriteRenderer>().bounds.size.x / 2f, indicatorLight.GetComponent<SpriteRenderer>().bounds.size.y / 1f, 0f);
+        Vector3 screenPos = Camera.main.WorldToScreenPoint(indicatorLight.transform.position + positionAdjustment);
+
+        
 
         GameObject newTextBox = Instantiate(textBoxPrefab);
         newTextBox.transform.SetParent(GameObject.Find("Canvas").transform);
@@ -82,6 +135,14 @@ public class JackController : MonoBehaviour {
         newTextBox.GetComponent<RectTransform>().position = screenPos;
         newTextBox.GetComponentInChildren<Text>().text = lineToSpeak;
 
-        Destroy(newTextBox, 5f);
+        curTextBox = newTextBox;
+
+        Destroy(newTextBox, onScreenDuration);
+    }
+
+    void ClearTextBoxState()
+    {
+        CancelInvoke();
+        Destroy(curTextBox);
     }
 }
