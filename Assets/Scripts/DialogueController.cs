@@ -3,29 +3,12 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 
-[System.Serializable]
-public class SpeakerPair {
-	public Speaker speaker1;
-	public Speaker speaker2;
-}
-
-[System.Serializable]
-public class Speaker {
-	public string name;
-	public Color color;
-	public string[] rambling;
-	public string matchTest;
-	public string correctMatchResponse;
-	public string wrongMatchResponse;
-}
-
-
-public enum SpeakerFrom {NewPair, PairOnBoard};
-
 public class DialogueController : MonoBehaviour {
 
 	public List<SpeakerPair> speakerPairs;
-	public List<List<SpeakerFrom>> waveSources;
+	public List<string> speakersPerWave;
+	// 'N' corresponds with getting a speaker from a NEW pair (i.e. it's partner hasn't been put on the board yet)
+	// 'U' corresponds with getting a speaker from a USED par (i.e. it's partner is on the board)
 
 	void Start()
 	{

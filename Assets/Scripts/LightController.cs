@@ -10,21 +10,14 @@ public class LightController : MonoBehaviour {
     public float pulseTiming = 0.5f;
 
     public SpriteRenderer sRend;
-
     
     public bool pulsateOnStart = false;
-
     public bool pulsating = false;
 
 	// Use this for initialization
 	void Start () {
         if(pulsateOnStart)
             StartPulsating(Color.green);
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
 	}
 
     public void StartPulsating(Color litCol)
