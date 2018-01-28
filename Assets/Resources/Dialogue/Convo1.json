@@ -1,6 +1,7 @@
 {
     "speaker1": {
         "name": "Grandma",
+        "nameOfPartner": "Billy",
         "color": "Grey",
         "rambling":
             ["Speak louder, my hearing isn't what it used to be, honey.",
@@ -15,6 +16,7 @@
 
     "speaker2": {
         "name": "Billy",
+        "nameOfPartner": "Grandma",
         "color": "Blue",
         "rambling":
             ["asdf", "asdf", "sadf", "fdsa"],

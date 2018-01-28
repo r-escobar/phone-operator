@@ -19,20 +19,31 @@ public class Speaker {
 	public string wrongMatchResponse;
 }
 
+
+public enum SpeakerFrom {NewPair, PairOnBoard};
+
 public class DialogueController : MonoBehaviour {
 
-	public SpeakerPair test;
+	public List<SpeakerPair> speakerPairs;
+	public List<List<SpeakerFrom>> waveSources;
 
 	void Start()
 	{
-		test = LoadSpeakerPair();
+		for(int i = 1; i <= 30; i++) {
+			speakerPairs.Insert(i-1, LoadSpeakerPair(1));
+		}
+		NextWave();
 	}
 
-	public SpeakerPair LoadSpeakerPair()
+	public SpeakerPair LoadSpeakerPair(int i)
 	{
-		string file = "Convo-Billy";
+		string file = "Convo" + i;
 		TextAsset asset = Resources.Load (Path.Combine ("Dialogue", file)) as TextAsset;
 		SpeakerPair sp = JsonUtility.FromJson<SpeakerPair> (asset.text);
 		return sp;
+	}
+
+	public void NextWave() {
+
 	}
 }
