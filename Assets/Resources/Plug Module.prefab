@@ -101,6 +101,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4981694984323688}
   - component: {fileID: 212608375024508120}
+  - component: {fileID: 114348916576736172}
   m_Layer: 0
   m_Name: indicator_light_inner
   m_TagString: Untagged
@@ -115,7 +116,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1042174888595560}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.75, y: 0.25, z: 0}
+  m_LocalPosition: {x: -1, y: 0.25, z: 0}
   m_LocalScale: {x: 0.75, y: 0.74999994, z: 0.75}
   m_Children:
   - {fileID: 4273445408319278}
@@ -220,6 +221,22 @@ MonoBehaviour:
   mouseOverColor: {r: 0, g: 0, b: 1, a: 1}
   curPlug: {fileID: 0}
   cursorCont: {fileID: 0}
+--- !u!114 &114348916576736172
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1855338506696206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ceed5e1ea328d84fb40b981fca0f7a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  litColor: {r: 0, g: 1, b: 0.2965517, a: 1}
+  pulseDuration: 1
+  pulseTiming: 0.5
+  sRend: {fileID: 212608375024508120}
+  pulsateOnStart: 0
 --- !u!212 &212007376538386860
 SpriteRenderer:
   m_ObjectHideFlags: 1
