@@ -116,7 +116,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1042174888595560}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1, y: 0.25, z: 0}
+  m_LocalPosition: {x: -6, y: 0.25, z: 0}
   m_LocalScale: {x: 0.75, y: 0.74999994, z: 0.75}
   m_Children:
   - {fileID: 4273445408319278}
@@ -221,6 +221,9 @@ MonoBehaviour:
   mouseOverColor: {r: 0, g: 0, b: 1, a: 1}
   curPlug: {fileID: 0}
   cursorCont: {fileID: 0}
+  indicatorLight: {fileID: 1855338506696206}
+  textBoxPrefab: {fileID: 1563462302097140, guid: e1ca19aab7e69de4ca322c50e08c596f,
+    type: 2}
 --- !u!114 &114348916576736172
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -232,11 +235,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ceed5e1ea328d84fb40b981fca0f7a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  litColor: {r: 0, g: 1, b: 0.2965517, a: 1}
   pulseDuration: 1
   pulseTiming: 0.5
   sRend: {fileID: 212608375024508120}
   pulsateOnStart: 0
+  pulsating: 0
 --- !u!212 &212007376538386860
 SpriteRenderer:
   m_ObjectHideFlags: 1

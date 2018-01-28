@@ -7,11 +7,15 @@ public class DialogueController : MonoBehaviour {
 
 	public List<SpeakerPair> speakerPairs;
 	public List<string> speakersPerWave;
-	// 'N' corresponds with getting a speaker from a NEW pair (i.e. it's partner hasn't been put on the board yet)
-	// 'U' corresponds with getting a speaker from a USED par (i.e. it's partner is on the board)
+    // 'N' corresponds with getting a speaker from a NEW pair (i.e. it's partner hasn't been put on the board yet)
+    // 'U' corresponds with getting a speaker from a USED par (i.e. it's partner is on the board)
+
+    public JackController jackToSpeak;
 
 	void Start()
 	{
+        jackToSpeak.Speak("test string!");
+
 		for(int i = 1; i <= 30; i++) {
 			speakerPairs.Insert(i-1, LoadSpeakerPair(1));
 		}

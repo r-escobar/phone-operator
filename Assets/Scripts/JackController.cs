@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class JackController : MonoBehaviour {
 
@@ -15,6 +16,9 @@ public class JackController : MonoBehaviour {
     public GameObject curPlug;
     public CursorController cursorCont;
 
+    public GameObject indicatorLight;
+
+    public GameObject textBoxPrefab;
 
     void Start()
     {
@@ -66,5 +70,18 @@ public class JackController : MonoBehaviour {
     void OnMouseUp()
     {
         //Debug.Log("up");
+    }
+
+    public void Speak(string lineToSpeak)
+    {
+        Vector3 screenPos = Camera.main.WorldToScreenPoint(indicatorLight.transform.position);
+
+        GameObject newTextBox = Instantiate(textBoxPrefab);
+        newTextBox.transform.SetParent(GameObject.Find("Canvas").transform);
+        newTextBox.GetComponent<RectTransform>().localScale = Vector3.one;
+        newTextBox.GetComponent<RectTransform>().position = screenPos;
+        newTextBox.GetComponentInChildren<Text>().text = lineToSpeak;
+
+        Destroy(newTextBox, 5f);
     }
 }
