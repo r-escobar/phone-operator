@@ -118,11 +118,6 @@ Transform:
   m_PrefabParentObject: {fileID: 4232167902423512, guid: 23e0e2522735bd246a96010e43e9d0e9,
     type: 2}
   m_PrefabInternal: {fileID: 176423263}
---- !u!1 &46985902 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1022003698874312, guid: 4fb8481c74f345e46ab1ba464ae8fcdd,
-    type: 2}
-  m_PrefabInternal: {fileID: 849882139}
 --- !u!1 &110927985
 GameObject:
   m_ObjectHideFlags: 0
@@ -360,7 +355,7 @@ Prefab:
         type: 2}
       propertyPath: curPlug
       value: 
-      objectReference: {fileID: 1660840676}
+      objectReference: {fileID: 0}
     - target: {fileID: 114037638332402658, guid: 23e0e2522735bd246a96010e43e9d0e9,
         type: 2}
       propertyPath: cursorCont
@@ -1457,6 +1452,12 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 23e0e2522735bd246a96010e43e9d0e9, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &592390938 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114037638332402658, guid: 23e0e2522735bd246a96010e43e9d0e9,
+    type: 2}
+  m_PrefabInternal: {fileID: 176423263}
+  m_Script: {fileID: 11500000, guid: ac46b372d3a8ad14bbfce453c7830b11, type: 3}
 --- !u!4 &593298602 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4232167902423512, guid: 23e0e2522735bd246a96010e43e9d0e9,
@@ -1631,6 +1632,12 @@ Transform:
   m_PrefabParentObject: {fileID: 4232167902423512, guid: 23e0e2522735bd246a96010e43e9d0e9,
     type: 2}
   m_PrefabInternal: {fileID: 1934796091}
+--- !u!114 &838788713 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114037638332402658, guid: 23e0e2522735bd246a96010e43e9d0e9,
+    type: 2}
+  m_PrefabInternal: {fileID: 1535350232}
+  m_Script: {fileID: 11500000, guid: ac46b372d3a8ad14bbfce453c7830b11, type: 3}
 --- !u!1001 &849882139
 Prefab:
   m_ObjectHideFlags: 0
@@ -1731,6 +1738,20 @@ Prefab:
       propertyPath: m_LocalPosition.x
       value: -9.016
       objectReference: {fileID: 0}
+    - target: {fileID: 114999410401876078, guid: 4fb8481c74f345e46ab1ba464ae8fcdd,
+        type: 2}
+      propertyPath: curJackController
+      value: 
+      objectReference: {fileID: 592390938}
+    - target: {fileID: 114120052086986928, guid: 4fb8481c74f345e46ab1ba464ae8fcdd,
+        type: 2}
+      propertyPath: curJackController
+      value: 
+      objectReference: {fileID: 1919208681}
+    - target: {fileID: 1226339222542600, guid: 4fb8481c74f345e46ab1ba464ae8fcdd, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4fb8481c74f345e46ab1ba464ae8fcdd, type: 2}
   m_IsPrefabParent: 0
@@ -1776,6 +1797,12 @@ Transform:
   m_Father: {fileID: 157931701}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &884010097 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114037638332402658, guid: 23e0e2522735bd246a96010e43e9d0e9,
+    type: 2}
+  m_PrefabInternal: {fileID: 1444123555}
+  m_Script: {fileID: 11500000, guid: ac46b372d3a8ad14bbfce453c7830b11, type: 3}
 --- !u!1001 &898273474
 Prefab:
   m_ObjectHideFlags: 0
@@ -2642,7 +2669,7 @@ Prefab:
     - target: {fileID: 224612670619595606, guid: e1ca19aab7e69de4ca322c50e08c596f,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 49.94065
       objectReference: {fileID: 0}
     - target: {fileID: 224612670619595606, guid: e1ca19aab7e69de4ca322c50e08c596f,
         type: 2}
@@ -2692,7 +2719,7 @@ Prefab:
     - target: {fileID: 224744191225898030, guid: e1ca19aab7e69de4ca322c50e08c596f,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -24.970325
       objectReference: {fileID: 0}
     - target: {fileID: 224744191225898030, guid: e1ca19aab7e69de4ca322c50e08c596f,
         type: 2}
@@ -2702,7 +2729,7 @@ Prefab:
     - target: {fileID: 224744191225898030, guid: e1ca19aab7e69de4ca322c50e08c596f,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 19.94065
       objectReference: {fileID: 0}
     - target: {fileID: 114158548591687632, guid: e1ca19aab7e69de4ca322c50e08c596f,
         type: 2}
@@ -3138,7 +3165,7 @@ Prefab:
         type: 2}
       propertyPath: curPlug
       value: 
-      objectReference: {fileID: 46985902}
+      objectReference: {fileID: 0}
     - target: {fileID: 114037638332402658, guid: 23e0e2522735bd246a96010e43e9d0e9,
         type: 2}
       propertyPath: wireCont
@@ -3507,11 +3534,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 23e0e2522735bd246a96010e43e9d0e9, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1660840676 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1063266809940806, guid: 4fb8481c74f345e46ab1ba464ae8fcdd,
-    type: 2}
-  m_PrefabInternal: {fileID: 849882139}
 --- !u!4 &1662649308 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4232167902423512, guid: 23e0e2522735bd246a96010e43e9d0e9,
@@ -3657,6 +3679,16 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 114999410401876078, guid: 4fb8481c74f345e46ab1ba464ae8fcdd,
+        type: 2}
+      propertyPath: curJackController
+      value: 
+      objectReference: {fileID: 838788713}
+    - target: {fileID: 114120052086986928, guid: 4fb8481c74f345e46ab1ba464ae8fcdd,
+        type: 2}
+      propertyPath: curJackController
+      value: 
+      objectReference: {fileID: 884010097}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4fb8481c74f345e46ab1ba464ae8fcdd, type: 2}
   m_IsPrefabParent: 0
@@ -3822,6 +3854,12 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1770035974}
   m_Script: {fileID: 11500000, guid: fb554489332130d489a34609b2efe8d1, type: 3}
+--- !u!114 &1919208681 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114037638332402658, guid: 23e0e2522735bd246a96010e43e9d0e9,
+    type: 2}
+  m_PrefabInternal: {fileID: 1517216881}
+  m_Script: {fileID: 11500000, guid: ac46b372d3a8ad14bbfce453c7830b11, type: 3}
 --- !u!1001 &1934796091
 Prefab:
   m_ObjectHideFlags: 0

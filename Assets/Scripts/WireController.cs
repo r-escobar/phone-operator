@@ -35,22 +35,30 @@ public class WireController : MonoBehaviour {
     }
 
 
-    public int TestForMatch()
+    public void TestForMatch()
     {
+        //int matchResult;
+
         // check both PlugControllers from plug1 and plug2
         // compare the names of the speakers in their respective jacks
         Speaker speaker1 = plug1.GetComponent<PlugController>().curJackController.curSpeaker;
         Speaker speaker2 = plug2.GetComponent<PlugController>().curJackController.curSpeaker;
-        if (speaker1 != null && speaker2 != null)
+
+        if (speaker1 == null || speaker2 == null)
+            return;
+
+        if (speaker1.speakerName != "" && speaker2.speakerName != "")
         {
-            //if(speaker1.speakerName == speaker2.nameOfPartner)
-            //{
-            // resolve match
-            //}
-            return 1;
-        } else
-        {
-            return 0;
+            if (speaker1.speakerName == speaker2.nameOfPartner)
+            {
+                plug1.GetComponent<PlugController>().curJackController.CorrectMatchResolve();
+                plug2.GetComponent<PlugController>().curJackController.CorrectMatchResolve();
+            } else
+            {
+                plug1.GetComponent<PlugController>().curJackController.MismatchResolve();
+                plug2.GetComponent<PlugController>().curJackController.MismatchResolve();
+            }
+
         }
     }
 }

@@ -59,15 +59,18 @@ public class JackController : MonoBehaviour {
             newPlug.transform.position = transform.position;
             newPlugPlaced = true;
 
-            int matchResult = newPlug.transform.parent.GetComponent<WireController>().TestForMatch();
+            //Debug.Log("setting this plug's jack controller to " + gameObject.name);
+            newPlug.GetComponent<PlugController>().SetNewJackController(gameObject);
 
-            if(matchResult == 1)
-            {
-                CorrectMatchResolve();
-            } else if(matchResult == -1)
-            {
-                MismatchResolve();
-            }
+            newPlug.transform.parent.GetComponent<WireController>().TestForMatch();
+
+            //if(matchResult == 1)
+            //{
+            //    CorrectMatchResolve();
+            //} else if(matchResult == -1)
+            //{
+            //    MismatchResolve();
+            //}
         }
 
 
@@ -83,7 +86,8 @@ public class JackController : MonoBehaviour {
         if(newPlugPlaced)
         {
             curPlug = newPlug;
-            curPlug.GetComponent<PlugController>().curJackController = this;
+
+            
         }
 
     }
@@ -105,7 +109,7 @@ public class JackController : MonoBehaviour {
 
     void Ramble()
     {
-        if (curRamblingIndex > curSpeaker.rambling.Length)
+        if (curRamblingIndex >= curSpeaker.rambling.Length)
             curRamblingIndex = 0;
 
         Speak(curSpeaker.rambling[curRamblingIndex], 5f);
@@ -115,12 +119,13 @@ public class JackController : MonoBehaviour {
         Invoke("Ramble", 7f);
     }
 
-    void CorrectMatchResolve()
+    public void CorrectMatchResolve()
     {
         ClearTextBoxState();
 
         Speak(curSpeaker.correctMatchResponse, 5f);
-        Invoke("ClearCurrentSpeaker", 5f);
+        //Invoke("ClearCurrentSpeaker", 5f);
+        ClearCurrentSpeaker();
 
         // play success sound 
     }
@@ -130,12 +135,13 @@ public class JackController : MonoBehaviour {
         curSpeaker = null;
     }
 
-    void MismatchResolve()
+    public void MismatchResolve()
     {
         ClearTextBoxState();
 
         Speak(curSpeaker.wrongMatchResponse, 5f);
-        Invoke("ClearCurrentSpeaker", 5f);
+        //Invoke("ClearCurrentSpeaker", 5f);
+        ClearCurrentSpeaker();
 
         // add penalty
     }
@@ -167,6 +173,7 @@ public class JackController : MonoBehaviour {
     void ClearTextBoxState()
     {
         CancelInvoke();
-        curTextBox.GetComponent<TextBoxController>().ShrinkImmediate();
+        if(curTextBox)
+            curTextBox.GetComponent<TextBoxController>().ShrinkImmediate();
     }
 }
