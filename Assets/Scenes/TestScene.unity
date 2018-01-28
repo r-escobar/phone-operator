@@ -1569,10 +1569,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4232167902423512, guid: 23e0e2522735bd246a96010e43e9d0e9, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 0.74999994
-      objectReference: {fileID: 0}
     - target: {fileID: 1042174888595560, guid: 23e0e2522735bd246a96010e43e9d0e9, type: 2}
       propertyPath: m_Name
       value: Plug Module (1)
@@ -1965,21 +1961,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96523f026fc1344d99b5848bb84c83ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  test:
-    speaker1:
-      name: 
-      color: {r: 0, g: 0, b: 0, a: 0}
-      rambling: []
-      matchTest: 
-      correctMatchResponse: 
-      wrongMatchResponse: 
-    speaker2:
-      name: 
-      color: {r: 0, g: 0, b: 0, a: 0}
-      rambling: []
-      matchTest: 
-      correctMatchResponse: 
-      wrongMatchResponse: 
+  speakerPairs: []
 --- !u!4 &1365579580
 Transform:
   m_ObjectHideFlags: 0
