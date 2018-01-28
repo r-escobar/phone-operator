@@ -59,7 +59,15 @@ public class JackController : MonoBehaviour {
             newPlug.transform.position = transform.position;
             newPlugPlaced = true;
 
-            //newPlug.transform.parent.GetComponent<WireController>().TestForMatch();
+            int matchResult = newPlug.transform.parent.GetComponent<WireController>().TestForMatch();
+
+            if(matchResult == 1)
+            {
+                CorrectMatchResolve();
+            } else if(matchResult == -1)
+            {
+                MismatchResolve();
+            }
         }
 
 
@@ -112,6 +120,14 @@ public class JackController : MonoBehaviour {
         ClearTextBoxState();
 
         Speak(curSpeaker.correctMatchResponse, 5f);
+        Invoke("ClearCurrentSpeaker", 5f);
+
+        // play success sound 
+    }
+
+    void ClearCurrentSpeaker()
+    {
+        curSpeaker = null;
     }
 
     void MismatchResolve()
@@ -119,6 +135,9 @@ public class JackController : MonoBehaviour {
         ClearTextBoxState();
 
         Speak(curSpeaker.wrongMatchResponse, 5f);
+        Invoke("ClearCurrentSpeaker", 5f);
+
+        // add penalty
     }
 
     public void Speak(string lineToSpeak, float onScreenDuration)
@@ -148,6 +167,6 @@ public class JackController : MonoBehaviour {
     void ClearTextBoxState()
     {
         CancelInvoke();
-        Destroy(curTextBox);
+        curTextBox.GetComponent<TextBoxController>().ShrinkImmediate();
     }
 }

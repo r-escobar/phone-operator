@@ -58,6 +58,20 @@ public class TextBoxController : MonoBehaviour {
         ));
     }
 
+    public void ShrinkImmediate()
+    {
+        iTween.Stop(gameObject);
+
+        iTween.ValueTo(gameObject, iTween.Hash(
+            "from", transform.localScale.x,
+            "to", 0f,
+            "time", shrinkTime / 2f,
+            "easetype", "easeInBack",
+            "onUpdate", "UpdateSize",
+            "onComplete", "DestroySelf"
+        ));
+    }
+
     public void UpdateSize(float newScale)
     {
         GetComponent<RectTransform>().localScale = Vector3.one * newScale;
