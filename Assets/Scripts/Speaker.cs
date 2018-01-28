@@ -5,6 +5,7 @@ using UnityEngine;
 [System.Serializable]
 public class Speaker {
 	public string speakerName;
+	public string nameOfPartner;
 	public Color color;
 	public string[] rambling;
 	public string matchTest;
