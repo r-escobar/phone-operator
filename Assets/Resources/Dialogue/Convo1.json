@@ -1,6 +1,6 @@
 {
     "speaker1": {
-        "name": "Grandma",
+        "speakerName": "Grandma",
         "nameOfPartner": "Billy",
         "color": "Grey",
         "rambling":
@@ -15,7 +15,7 @@
     },
 
     "speaker2": {
-        "name": "Billy",
+        "speakerName": "Billy",
         "nameOfPartner": "Grandma",
         "color": "Blue",
         "rambling":
